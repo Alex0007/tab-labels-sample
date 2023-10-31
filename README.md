@@ -1,4 +1,4 @@
-# Hello World Sample
+# Tab Labels Sample
 
 This example shows an ability to rename tabs with Extensions API.
 
