@@ -1,6 +1,6 @@
 import * as vscode from 'vscode';
 
-const calculateTabLabels = (tab: vscode.Tab): vscode.window.TabLabelInput | undefined => {
+const calculateTabLabels = (tab: vscode.Tab): vscode.TabLabelInput | undefined => {
   const { fsPath }: { fsPath: string | undefined } = (tab?.input as vscode.TabInputText).uri as any ?? {};
 
   if (!fsPath) return;
